@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Playwright add employee test",
+			"type": "shell",
+			"command": "npx playwright test tests/pim-ajouter-un-employe.spec.ts --reporter=line",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}
